@@ -8,13 +8,12 @@ If it does not satisfy any of the above given conditions, display "Invalid".
 
 '''
 
-num=input("enter the number:")
-if(num%3==0 and num%5==0):
+num = input("enter the number:")
+if(num % 3 == 0 and num % 5 == 0):
     print("zoom")
-elif(num%3==0):
+elif(num % 3 == 0):
     print("zip")
-elif(num%5==0):
+elif(num % 5 == 0):
     print("zap")
 else:
     print("invalid entry")
-                
