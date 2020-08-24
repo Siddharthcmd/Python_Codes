@@ -33,5 +33,5 @@ def find_product(num1, num2, num3):
 
 
 # Provide different values for num1, num2, num3 and test your program
-product = find_product(7, 7, 2)
+product = find_product(1, 7, 2)
 print(product)
