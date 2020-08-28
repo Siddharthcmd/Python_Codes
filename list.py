@@ -37,5 +37,24 @@ sample_list = sample_list+new_list
 print("After combining two lists - 2nd way:", sample_list)
 
 # Accessing an element beyond the total number of elements in the list
-print(sample_list[11])
+# print(sample_list[11])
 # Comment the above line before visualizing
+
+list_of_airlines = ["AI", "EM", "BA"]
+
+print("Iterating the list using range()")
+for index in range(0, len(list_of_airlines)):
+    print(list_of_airlines[index])
+
+print("Iterating the list using keyword in")
+for airline in list_of_airlines:
+    print(airline)
+
+list_of_names = ["siddharth", "rohit", "shashank"]
+
+for index1 in range(0, len(list_of_names)):
+    print(list_of_names[index1])
+
+print("using keyword in list ")
+for name in list_of_names:
+    print(name)
