@@ -11,4 +11,4 @@ for passenger in "A", "A", "FC", "C", "FA",  "SP", "A", "A":
         print("Proceed with normal security check")
 
     print("Check the person")
-    print("Check for cabin baggage")
+    print("Check for cabin baggage ")

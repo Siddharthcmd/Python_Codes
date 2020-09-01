@@ -50,7 +50,7 @@ print("Iterating the list using keyword in")
 for airline in list_of_airlines:
     print(airline)
 
-list_of_names = ["siddharth", "rohit",
+list_of_names = ["siddharth", "ram", "rohit",
                  "shashank", "Mark", 5, "Jack", 9, "Chan"]
 
 for index1 in range(0, len(list_of_names), 2):

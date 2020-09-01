@@ -1,6 +1,6 @@
 def lucky_number(number):
-    if (sum(int(digitt)
-            for digitt in str(sum(int(digit) for digit in str(number)))) == 9):
+    if (sum(int(digits)
+            for digits in str(sum(int(digit) for digit in str(number)))) == 9):
         return True
     else:
         return False

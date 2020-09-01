@@ -13,7 +13,7 @@ Write a python program for the above requirement. Identify the test data and use
 
 '''
 
-score = input("enter the number of student to obtain his mark:")
+score = input("enter the number of student to obtain his marks:")
 if(score >= 80 and score <= 100):
     print('garde is: A')
 elif(score >= 73 and score <= 79):

@@ -19,7 +19,6 @@ if((total_cost/2) % 5 != 0):
     divisible_by_five = False
 else:
     divisible_by_five = True
-per_head_cost= total_cost/4
+per_head_cost = total_cost/4
 print(per_head_cost)
-print(divisible_by_five)    
-    
+print(divisible_by_five)
