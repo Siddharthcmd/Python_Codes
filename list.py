@@ -50,11 +50,18 @@ print("Iterating the list using keyword in")
 for airline in list_of_airlines:
     print(airline)
 
-list_of_names = ["siddharth", "rohit", "shashank"]
+list_of_names = ["siddharth", "rohit",
+                 "shashank", "Mark", 5, "Jack", 9, "Chan"]
 
-for index1 in range(0, len(list_of_names)):
+for index1 in range(0, len(list_of_names), 2):
     print(list_of_names[index1])
 
 print("using keyword in list ")
 for name in list_of_names:
     print(name)
+
+name1 = "siddharth"
+if name in list_of_names:
+    print("founded")
+else:
+    print("not there")
