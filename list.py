@@ -2,7 +2,7 @@
 list_of_airlines = ["AI", "EM", "BA"]
 print("List of airlines:", list_of_airlines)
 
-# list can  store heterogeneous data
+#  list can  store heterogeneous data
 sample_list = ["Mark", 5, "Jack", 9, "Chan", 5]
 print("Sample List:", sample_list)
 

@@ -1,4 +1,4 @@
-# This program will check weather the number is palindrom or not
+# This program will  check weather the number is palindrom or not
 
 number = input("Enter the number you want to check:")
 temp = number

@@ -23,7 +23,7 @@ no_of_passengers = 2 ['BA:Aus:Fra:101', 'BA:Aus:Fra:102']
 '''
 
 
-# PF-Exer-22
+#  PF-Exer-22
 
 def generate_ticket(airline, source, destination, no_of_passengers):
     ticket_number_list = []

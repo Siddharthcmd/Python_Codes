@@ -21,5 +21,5 @@ def calculate(distance, no_of_passengers):
 
 
 distance = 20
-no_of_passengers = 50
+no_of_passengers = 60
 print(calculate(distance, no_of_passengers))

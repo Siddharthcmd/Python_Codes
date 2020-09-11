@@ -5,7 +5,7 @@ def display1(flight_number, seating_capacity):
 
 print("code-1: positional arguments")
 display1("AI789", 200)
-# Uncomment and execute the below function call statement and observe the output
+# Uncomment an d execute the below function call statement and observe the output
 # display1(300,"BA123")
 
 

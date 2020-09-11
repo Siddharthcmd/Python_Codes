@@ -4,7 +4,7 @@ crew_details = {
     "Head-Strewardess": "Malini",
     "Stewardess": "Mala"
 }
-print("Pilot:", crew_details["Pilot"],
+print("Pilots:", crew_details["Pilot"],
       "and Co-Pilot:", crew_details["Co-Pilot"])
 
 print("\nIterating the dictionary using items function")

@@ -1,7 +1,7 @@
 def leap_year(year):
     return [index for index in range(year, year + 60) if(index % 4 == 0 or index % 400 == 0 and index % 100 == 0)]
 
-# program logic
+#  program logic
 # if year % 100 == 0:
 #    if year % 400 == 0:
 #        return True

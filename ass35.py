@@ -1,4 +1,4 @@
-# PF-Assgn-35
+# PF-As sgn-35
 
 # Global variable
 list_of_marks = (12, 18, 25, 24, 2, 5, 18, 20, 20, 21)

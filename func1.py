@@ -1,4 +1,4 @@
-# this code will calculate the sum of two numbers using function call
+#  this code will calculate the sum of two numbers using function call
 
 def sum(data1, data2):
     total = data1+data2

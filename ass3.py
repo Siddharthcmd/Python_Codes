@@ -4,7 +4,7 @@
 # (both to and fro) journey.
 # The program should also display True, if the amount to be paid by each person is divisible by 5,
 # otherwise it should display False.
-# (Hint: Use the relational operators in print statement.)
+# (Hint: U   se the relational operators in print statement.)
 
 # Assume that mileage of the vehicle, amount per litre of fuel and distance for one way are given.
 

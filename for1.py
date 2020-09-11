@@ -1,4 +1,4 @@
-for passenger in "A", "A", "FC", "C", "FA",  "SP", "A", "A":
+for passenger in "FC", "A", "FC", "C", "FA",  "SP", "A", "A":
     if(passenger == "FC" or passenger == "FA"):
         print("No check required")
         continue
