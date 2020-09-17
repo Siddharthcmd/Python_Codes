@@ -30,7 +30,7 @@ def find_ten_substring(num_str):
     print(ten_substr)
 
 
-num_str = "153512350121245315212"
+num_str = "582098450268929345092"
 print("The number is:", num_str)
 result_list = find_ten_substring(num_str)
 print(result_list)
