@@ -10,6 +10,7 @@ if(boarding_call.endswith("A.M.")):
     print("Passengers are requested to have their breakfast.")
 
 a = boarding_call.split(" ")
+print(a)
 for i in a:
     if(i.isdigit()):
         print("Flight Number is specified to the passengers.")
