@@ -10,8 +10,6 @@ def sum_all(function, data):
         if function(i):
             summ += i
     return summ
-
-52.py
 list_of_nos = [25, 26, 27, 28, 29, 30, 147, 187]
 
 greater = lambda x: x > 10
