@@ -8,7 +8,7 @@ def sum_of_numbers(list_of_num, filter_func=None):
 
 
 def even(data):
-    if(ev):
+    pass
 
 
 
