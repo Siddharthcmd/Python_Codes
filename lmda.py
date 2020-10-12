@@ -2,20 +2,35 @@ import math
 
 from typing import Any, Callable
 
-g = lambda x, y: x * (x + y)  # type: Callable[[Any, Any], Any]
+
+def g(x, y): return x * (x + y)  # type: Callable[[Any, Any], Any]
+
+
 print(g(8, 2))
 
-s = lambda x: math.factorial(x)
+
+def s(x): return math.factorial(x)
+
+
 print(s(5))
 
-h = lambda x: x > 40 and x < 50
+
+def h(x): return x > 40 and x < 50
+
+
 print(h(45))
 
-k = lambda x: x > 10
+
+def k(x): return x > 10
+
+
 if (k(50)):
     print("The number is greater than 10")
 else:
     print("The number is less than 10")
 
-m = lambda x, y, z: x + y
+
+def m(x, y, z): return x + y
+
+
 print(m(1, 2, 3) + g(2, 3))

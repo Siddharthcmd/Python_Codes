@@ -1,11 +1,11 @@
 import pytest
-from boarding1 import boarding
+from pf54 import check_anagram
 
-values = [(0, -1), (1, 1), (2, 1), (24, 1), (25, 1), (26, 2), (27, 2),
-          (99, 2), (100, 2), (101, 3), (102, 3), (199, 3), (200, 3), (201, -1)]
+values = [('eat', 'tea', True), ('backward', 'drawback', False),
+          ('Reductions', 'discounter', True), ('About', 'table', False)]
 
 
-@pytest.mark.parametrize("seat_number,expected_value", values)
-def test_case(seat_number, expected_value):
-    result = boarding(seat_number)
+@pytest.mark.parametrize("data1,data2,expected_value", values)
+def test_case(data1, data2, expected_value):
+    result = check_anagram(data1, data2)
     assert result == expected_value

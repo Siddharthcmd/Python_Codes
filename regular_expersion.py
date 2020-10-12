@@ -2,34 +2,39 @@ import re
 
 flight_details = "Flight Savana Airlines a2138"
 
-if(re.search(r"Airlines", flight_details) != None):
+if re.search(r"a+v", flight_details) is not None:
+    print("pattern found")
+else:
+    print("pattern not found")
+
+if re.search(r"Airlines", flight_details) is not None:
     print("Match Found: Airlines")
 else:
     print("Match Not Found")
 
-if(re.search(r"a2138$", flight_details) != None):
+if re.search(r"a2138$", flight_details) is not None:
     print("Match Found: a2138")
 else:
     print("Match Not Found")
 
 
-if(re.search(r"^F", flight_details) != None):
+if re.search(r"^F", flight_details) is not None:
     print("Match Found: Message starts with 'F'")
 else:
     print("Match Not Found")
 
 
-if(re.search(r"F..", flight_details) != None):
+if re.search(r"F..", flight_details) is not None:
     print("Match Found: Word starts with F and two consecutive characters")
 else:
     print("Match Not Found")
 
-if(re.search(r"\bSav\b", flight_details) != None):
+if re.search(r"\bSav\b", flight_details) is not None:
     print("Match Found:Word with blank spaces on both sides")
 else:
     print("Match Not Found")
 
-if(re.search(r"\d$", flight_details) != None):
+if re.search(r"\d$", flight_details) is not None:
     print("Match Found: Message ends with number")
 else:
     print("Match Not Found")
